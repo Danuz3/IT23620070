@@ -1,0 +1,35 @@
+{
+  "name": "it23620070",
+  "version": "1.0.0",
+  "description": "Automated testing for Singlish to Sinhala translation system",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:all": "playwright test",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report test-results/html-report",
+    "install-browsers": "playwright install",
+    "codegen": "playwright codegen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danuz3/IT23620070.git"
+  },
+  "keywords": ["playwright", "testing", "automation", "singlish", "sinhala"],
+  "author": "Your Name",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Danuz3/IT23620070/issues"
+  },
+  "homepage": "https://github.com/Danuz3/IT23620070#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.1",
+    "@types/node": "^25.1.0"
+  }
+}
